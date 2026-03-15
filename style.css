@@ -58,22 +58,46 @@ li {
   gap: 20px;
 }
 
+.intro {
+  max-width: 700px;
+  margin-bottom: 40px;
+}
+
 .tool-card {
   border: 1px solid #e5e5e5;
-  border-radius: 10px;
-  padding: 20px;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 30px;
   background: #fafafa;
 }
 
 .tool-card h3 {
   margin-top: 0;
   margin-bottom: 10px;
-  font-size: 1.15rem;
 }
 
 .tool-card p {
-  margin-top: 0;
-  margin-bottom: 16px;
+  margin-bottom: 18px;
+}
+
+.tool-card img {
+  width: 100%;
+  max-width: 700px;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  margin-bottom: 18px;
+}
+
+.video-wrapper {
+  margin-bottom: 18px;
+}
+
+.video-wrapper iframe {
+  width: 100%;
+  max-width: 700px;
+  aspect-ratio: 16 / 9;
+  border: none;
+  border-radius: 8px;
 }
 
 .button {
